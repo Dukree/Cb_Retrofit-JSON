@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#e0e0e0"
+        app:drawableLeftCompat="@drawable/united_kingdom" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#66FFFF"
+        app:drawableLeftCompat="@drawable/united_states" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#99CCFF"
+        app:drawableLeftCompat="@drawable/european_union" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"/>
+</LinearLayout>

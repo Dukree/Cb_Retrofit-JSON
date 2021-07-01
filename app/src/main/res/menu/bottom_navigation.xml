@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/basic_valute"
+        android:icon="@drawable/ic_basic_valute"
+        android:title="@string/Basic_Valute"/>
+    <item
+        android:id="@+id/all_valute"
+        android:icon="@drawable/ic_allvalute"
+        android:title="@string/All_Valute"/>
+    <item
+        android:id="@+id/quotation"
+        android:icon="@drawable/ic_quotation"
+        android:title="@string/Quotation"/>
+
+</menu>

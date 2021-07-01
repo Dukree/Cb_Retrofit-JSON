@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cb_Kotlin</string>
+
+    <string name="Basic_Valute">Основная валюта</string>
+    <string name="All_Valute">Все валюты</string>
+    <string name="Quotation">Котировки</string>
+</resources>
